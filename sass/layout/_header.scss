@@ -25,7 +25,7 @@
   }
 
   &:checked ~ .search-bar .menu-toogle__label {
-    background-color: yellow;
+    background-color: rgb(116, 116, 30);
   }
 }
 
@@ -41,7 +41,7 @@
     /* .nav-bar__nav-list */
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     @media (max-width: 768px) {
       & {
@@ -93,7 +93,7 @@
   &__logo-container, /* search-bar__logo-container */
     &__form-container {
     /* search-bar__form-container */
-    padding: 4em;
+    box-shadow: goldenrod;
   }
 
   &__logo-container {
@@ -101,7 +101,6 @@
     height: 185px;
     border-radius: 3px;
     margin-left: 15px;
-    /*  background-image: ; */
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100%;
@@ -131,7 +130,7 @@
     margin-right: 10px;
     font-size: xx-large;
     font-weight: bolder;
-    text-shadow: 2px 3px 1px rgba(245, 237, 237, 0.75);
+    text-shadow: 2px 3px 1px rgba(192, 153, 47, 0.75);
 
     @media (max-width: 768px) {
       & {
@@ -155,9 +154,9 @@
   }
 
   &__form-submit {
-    background-color: darkslategray;
-    color: variables.$color-fuente-1;
-    height: 25px;
+    background-color: goldenrod;
+    color: black;
+    height: 30px;
     margin-left: 10px;
     padding: 5px 5px;
     box-shadow: variables.$box-shadow-1;

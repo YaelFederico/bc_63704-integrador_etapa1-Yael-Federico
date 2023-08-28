@@ -6,7 +6,7 @@
     overflow: hidden;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: rgb(255, 167, 4);
+    background-color: rgb(204, 162, 85);
     box-shadow: 0 1px 5px rgba(0,0,0, .2), 0 0 3px rgba(0,0,0, .3);
 
     transition: all .2s; /* No puede ser all */
@@ -19,23 +19,23 @@
     }
 
     &:nth-child(5n + 1) {
-        background-image: linear-gradient(to top, #daa520 0%, #ffffff 30%);
+        background-image: linear-gradient(to top, #daa520 0%, #0a0a0a 30%);
     }
 
     &:nth-child(5n + 2) {
-        background-image: linear-gradient(to top, #daa520 0%, #ffffff 30%);
+        background-image: linear-gradient(to top, #daa520 0%, #000000 30%);
     }
 
     &:nth-child(5n + 3) {
-        background-image: linear-gradient(to top, #daa520 0%, #ffffff 30%);
+        background-image: linear-gradient(to top, #daa520 0%, #000000 30%);
     }
 
     &:nth-child(5n + 4) {
-        background-image: linear-gradient(to top, #daa520 0%, #ffffff 30%);
+        background-image: linear-gradient(to top, #daa520 0%, #000000 30%);
     }
 
     &:nth-child(5n + 5) {
-        background-image: linear-gradient(to top, #daa520 0%, #ffffff 30%);
+        background-image: linear-gradient(to top, #daa520 0%, #000000 30%);
     }
 
     &__image-container {
